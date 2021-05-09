@@ -9,6 +9,8 @@ import { CardThreeComponent } from './card-three/card-three.component';
 import { CardFourComponent } from './card-four/card-four.component';
 import { CardFiveComponent } from './card-five/card-five.component';
 import { CardSixComponent } from './card-six/card-six.component';
+import { ProductComponent } from './product/product.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardSixComponent } from './card-six/card-six.component';
     CardThreeComponent,
     CardFourComponent,
     CardFiveComponent,
-    CardSixComponent
+    CardSixComponent,
+    ProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
+.card{
+    background-color: rgb(247, 238, 224);
+}
+p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+.btn{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+
+}
+#i1:hover{
+    color: white;
+    background-color: black;
+
+}
+#i2:hover{
+    background-color: rgb(8, 8, 105);
+}
