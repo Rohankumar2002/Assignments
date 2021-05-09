@@ -1,0 +1,32 @@
+/* h1{
+    font-family: 'Chivo', sans-serif;
+    color: rgb(19, 20, 20);
+}
+h3{
+    font-family: 'Chivo', sans-serif;
+    color: rgb(167, 20, 49);
+}
+.form-control{
+    border:none;
+    border-bottom:2px solid black;
+    box-shadow:none !important;
+    border-radius: 0px;
+    background-color: rgb(229, 241, 240);
+}
+.form-control:focus{
+    border-bottom: 1px solid black;
+}
+.card{
+    
+    border-radius: 10px;
+    background-color: rgb(229, 241, 240);
+    box-shadow: 4px 2px 2px black;
+}
+#bt{
+    display: block;
+    margin: auto;
+} */
+
+h1{
+    background-color: rgb(241, 224, 66);
+}

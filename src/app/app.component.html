@@ -1,0 +1,117 @@
+<!--Assignment-18-->
+
+<!-- <div class="w-50 mx-auto mt-5">
+  <div class="card w-100 shadow">
+    <h2 class="text-center bg-warning pt-3 pb-3"><i class="far fa-smile-wink me-1"></i>Hello...! Add your Name</h2>
+    <div class="form-floating w-75 d-block mx-auto mb-3 mt-4">
+      
+      <input type="text" class="form-control" id="floatingInput" placeholder="India" #ref>
+      <label for="floatingInput">Add here</label>
+    </div>
+
+      <button class="btn btn-success d-block mx-auto mt-3 mb-3" (click)="addItem(ref.value);ref.value=''"><i class="fas fa-plus-square me-2"></i>Add to List</button>
+  </div>
+</div> -->
+
+
+<!-- display list of users -->
+<!-- <div class="w-50 mx-auto mt-5">
+  <h2 class="text-center mt-3 bg-dark text-white pt-3 pb-3">List of Users</h2>
+  <hr>
+  <button class="btn btn-info d-block mx-auto" (click)="changeStatus()">{{status? "Hide":"Show"}}</button>
+  <div *ngIf="status">
+  <h4 *ngFor="let item of listOfUser" class="text-center mt-3">{{item}}</h4>
+  </div>
+</div> -->
+
+
+
+<!--Assignment-19-->
+
+<!-- <div class="w-50 mx-auto mt-4">
+  <div class="card w-100">
+    <h1 class="text-center mt-5"><i class="far fa-address-card me-2"></i>User Registration Form</h1>
+    <form #ref="ngForm" (ngSubmit)="addUserDetails(ref)">
+      <div class="form-floating w-75 d-block mx-auto mt-4">
+        <input type="text" class="form-control" name="user" id="un" placeholder="India" ngModel>
+        <label for="un" class="form-label">Username</label>
+      </div>
+      <div class="form-floating w-75 d-block mx-auto">
+        <input type="date" class="form-control" name="dateOfBirth" id="dob" placeholder="20-3-21" ngModel>
+        <label for="dob" class="form-label">Date Of Birth</label>
+      </div>
+      <div class="form-floating w-75 d-block mx-auto">
+        <input type="text" class="form-control" name="mail" id="email" placeholder="@mail.com" ngModel>
+        <label for="email" class="form-label">Email</label>
+      </div>
+      <div class="form-floating w-75 d-block mx-auto mb-5">
+        <input type="text" class="form-control" name="address" id="ad" placeholder="Hyderabad" ngModel>
+        <label for="ad" class="form-label">Address</label>
+      </div>
+      <button type="submit" class="btn btn-dark text-white d-block mx-auto mb-4"><i class="fas fa-external-link-alt me-2"></i>Register now</button>
+    </form>
+    
+  </div> 
+</div>
+
+<div class="text-center w-50 mx-auto">
+  <h1 class=" text-white bg-dark pt-3 pb-3 mt-5"><i class="fas fa-clipboard-list me-2"></i>List of registered users</h1>
+  <hr>
+  <h3 *ngIf="Users.length==0"><i class="fas fa-frown-open me-2 mb-5"></i>No users found</h3>
+    <div class="accordion" id="acc"  *ngIf="Users.length!=0">
+      <div class="accordion-item" *ngFor="let userObj of Users;let ind=index">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#acr' + ind">
+            <strong>{{userObj.user}}</strong>
+            <button id="bt" class="btn btn-danger" (click)="deleteItem(ind)"><i class="fas fa-user-minus"></i></button>
+          </button>
+        </h2>
+
+
+
+        <div [attr.id]="'acr' + ind" class="accordion-collapse collapse" data-bs-parent="#acc">
+          <div class="accordion-body bg-info">
+            <h5>{{userObj.dateOfBirth}}</h5>
+            <h5>{{userObj.mail}}</h5>
+            <h5>{{userObj.address}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> -->
+
+  
+
+
+<div class="container bg-dark">
+  <div class="pt-2"><h1 class="text-center mt-3 pt-2 pb-2"><i class="fas fa-shopping-bag me-2"></i>BIGGEST DEALS ON TOP BRANDS</h1></div>
+  <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3 p-4">
+    <div class="col-p-3 mb-3">
+      <app-card-one></app-card-one>
+
+    </div>
+    <div class="col-p-3 mb-3">
+        <app-card-two></app-card-two>
+    </div>
+    <div class="col-p-3 mb-3">
+         <app-card-three></app-card-three>
+    </div>
+    <div class="col-p-3 mb-3">
+          <app-card-four></app-card-four>
+    </div>
+    <div class="col-p-3 mb-3">
+      <app-card-five></app-card-five>
+    </div>
+    <div class="col-p-3 mb-3">
+      <app-card-six></app-card-six>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
