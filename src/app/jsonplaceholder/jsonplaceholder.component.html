@@ -1,0 +1,84 @@
+<div class="container">
+    <h1 class="text-center text-white mt-2">DATA</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        
+        <div class="card w-50 mt-2 mb-2 d-flex justify-content-center" *ngFor="let obj of jsons">
+        <div class="col-12">
+
+        
+          <div class="card-body">
+            <div class="row ">
+                <div class="col-5">
+                    <p>Id</p>
+                    <p>Name</p>
+                    <p>Username</p>
+                    <p>Email</p>
+                    <h5>Address</h5>
+                    <p>Street</p>
+                    <p>Suite</p>
+                    <p>City</p>
+                    <p>Zipcode</p>
+                    <h6>Geo</h6>
+                    <p>Lat</p>
+                    <p>Lng</p>
+                    <p>phone</p>
+                    <p>Website</p>
+                    <h5>Company</h5>
+                    <p>Name</p>
+                    <p>CatchPhrase</p>
+                    <p>Bs</p>
+
+
+                </div>
+                <div class="col-2">
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <br>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <br>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+                    <br>
+                    <p>:</p>
+                    <p>:</p>
+                    <p>:</p>
+
+                </div>
+                <div class="col-5">
+                    <p>{{obj.id}}</p>
+                    <p>{{obj.name}}</p>
+                    <p>{{obj.username}}</p>
+                    <p>{{obj.email}}</p>
+                    <br>
+                    <p>{{obj.address.street}}</p>
+                    <p>{{obj.address.suite}}</p>
+                    <p>{{obj.address.city}}</p>
+                    <p>{{obj.address.zipcode}}</p>
+                    <br>
+                    <p>{{obj.address.geo.lat}}</p>
+                    <p>{{obj.address.geo.lng}}</p>
+                    <p>{{obj.phone}}</p>
+                    <p>{{obj.website}}</p>
+                    <br>
+                    <p>{{obj.company.name}}</p>
+                    <p>{{obj.company.catchPhrase}}</p>
+                    <p>{{obj.company.bs}}</p>
+                    
+                </div>
+
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        
+    
+    </div>
+</div>

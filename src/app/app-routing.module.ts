@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ColorsComponent } from './colors/colors.component';
+import { JsonplaceholderComponent } from './jsonplaceholder/jsonplaceholder.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UsersComponent } from './users/users.component';
 
@@ -14,7 +16,9 @@ const routes: Routes = [
   //   {path:'clothing',component:ClothingComponent}
   // ]},
   {path:'users',component:UsersComponent},
-  {path:'users/:id',component:UserDetailsComponent}
+  {path:'users/:id',component:UserDetailsComponent},
+  {path:'colors',component:ColorsComponent},
+  {path:'json',component:JsonplaceholderComponent}
 ];
 
 @NgModule({

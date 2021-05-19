@@ -1,0 +1,23 @@
+<div class="container">
+    <h2 class="text-center text-white mt-4 mb-4">COLORS DATA</h2>
+    <table class="table text-center text-white">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th>Pantone-value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let colorObj of colors.data">
+                <td>{{colorObj.id}}</td>
+                <td>{{colorObj.year}}</td>
+                <td>{{colorObj.color}}</td>
+                <td>{{colorObj.pantone_value}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -16,6 +16,8 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { HttpClientModule} from '@angular/common/http';
+import { ColorsComponent } from './colors/colors.component';
+import { JsonplaceholderComponent } from './jsonplaceholder/jsonplaceholder.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { HttpClientModule} from '@angular/common/http';
     // AccessoriesComponent,
     // ClothingComponent,
     UsersComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    ColorsComponent,
+    JsonplaceholderComponent
   ],
   imports: [
     BrowserModule,
