@@ -10,12 +10,5 @@ import { Product } from '../product.models.ts/product.models';
 export class ProductDetailsComponent{
 
   @Input() productObj:Product;
-  @Output() myevent=new EventEmitter()
-
-  sendproducttoparent(productTitle)
-  {
-    this.myevent.emit(productTitle)
-  }
   
-
 }

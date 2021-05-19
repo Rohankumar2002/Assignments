@@ -1,0 +1,9 @@
+li a{
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+}
+li{
+    background-color: black;
+    border-radius: 5px;
+}

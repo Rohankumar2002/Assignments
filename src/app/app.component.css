@@ -27,6 +27,34 @@ h3{
     margin: auto;
 } */
 
-h1{
+/* h1{
     font-family: 'Merriweather Sans', sans-serif;
+}
+.navbar-brand{
+    margin-left: 45px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-nav{
+    font-size: 23px;
+    margin-right: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.active{
+    font-weight: bold;
+    background-color: rgb(46, 187, 41);
+    border-radius: 15px;
+    padding-top: 5px;
+} */
+
+.nav-link{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 5px 20px;
+    color: rgb(228, 238, 240);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    background-color: black;
+
 }

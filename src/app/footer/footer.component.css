@@ -1,0 +1,22 @@
+#i1{
+   color: rgb(245, 14, 187);
+   font-size: 30px;
+}
+#i2{
+    font-size: 30px;
+    color: rgb(69, 80, 236);
+}
+#i3{
+    font-size: 30px;
+    color: blueviolet;
+}
+li{
+    font-size: 22px;
+    text-decoration: none;
+}
+#a1{
+    background-color: black;
+    margin-left: -120px;
+    margin-right: -120px;
+    margin-bottom: -15px;
+}

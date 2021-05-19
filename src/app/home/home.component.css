@@ -1,0 +1,15 @@
+.card{
+    background-color: cornsilk;
+}
+#p1{
+    color: white;
+    font-size: 40px;
+    background-image: linear-gradient(to right,rgb(70, 59, 59),black);
+
+}
+.x1{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

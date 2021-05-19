@@ -1,0 +1,19 @@
+.table{
+    text-align: center;
+    
+}
+.thead tr th{
+    color: black;
+}
+.i1{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.btn{
+    background-color: rgb(53, 45, 45);
+    color: white;
+    border: 0.1px solid rgb(53, 45, 45);
+}
+.btn:hover{
+    background-color:rgb(189, 255, 36);
+    color:black;
+}

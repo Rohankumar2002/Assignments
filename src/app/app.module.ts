@@ -3,31 +3,41 @@ import { BrowserModule } from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardOneComponent } from './card-one/card-one.component';
-import { CardTwoComponent } from './card-two/card-two.component';
-import { CardThreeComponent } from './card-three/card-three.component';
-import { CardFourComponent } from './card-four/card-four.component';
-import { CardFiveComponent } from './card-five/card-five.component';
-import { CardSixComponent } from './card-six/card-six.component';
-import { ProductComponent } from './product/product.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
+// import { ProductComponent } from './product/product.component';
+// import { ProductDetailsComponent } from './product-details/product-details.component';
+// import { HomeComponent } from './home/home.component';
+// import { RegisterComponent } from './register/register.component';
+// import { LoginComponent } from './login/login.component';
+// import { ContactusComponent } from './contactus/contactus.component';
+// import { FooterComponent } from './footer/footer.component';
+// import { ShoesComponent } from './shoes/shoes.component';
+// import { AccessoriesComponent } from './accessories/accessories.component';
+// import { ClothingComponent } from './clothing/clothing.component';
+import { UsersComponent } from './users/users.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardOneComponent,
-    CardTwoComponent,
-    CardThreeComponent,
-    CardFourComponent,
-    CardFiveComponent,
-    CardSixComponent,
-    ProductComponent,
-    ProductDetailsComponent
+    // ProductComponent,
+    // ProductDetailsComponent,
+    // HomeComponent,
+    // RegisterComponent,
+    // LoginComponent,
+    // ContactusComponent,
+    // FooterComponent,
+    // ShoesComponent,
+    // AccessoriesComponent,
+    // ClothingComponent,
+    UsersComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
   ],
   providers: [],

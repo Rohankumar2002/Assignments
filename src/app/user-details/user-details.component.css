@@ -1,0 +1,15 @@
+.card{
+    background-color: cornsilk;
+}
+img{
+    border:1px solid rgb(228, 23, 23);
+    border-radius: 120px;
+}
+.class{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
+.class1{
+    font-family: 'Merriweather Sans', sans-serif;
+}
